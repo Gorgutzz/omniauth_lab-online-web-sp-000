@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :name
       t.integer :uid
 
-            t.timestamps
+      t.timestamps
     end
   end
 end
